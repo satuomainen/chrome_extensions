@@ -1,0 +1,23 @@
+body,
+div#page, 
+div.featured-slides-callout,
+article {
+  background-color: #e6e6e6 !important;
+  color: #000 !important;
+}
+
+h1,
+h2 {
+  color: #000 !important;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+code,
+pre {
+  background-color: #afafaf !important;
+  color: #000 !important;
+}

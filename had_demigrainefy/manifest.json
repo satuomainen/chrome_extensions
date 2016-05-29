@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hackaday de-migrainefy",
+  "description": "Invert light text on dark background on Hackaday site",
+  "version": "1.0",
+
+  "content_scripts": [
+  	{
+  	    "matches": [
+          "http://hackaday.com/*",
+          "http://*.hackaday.com/*"
+        ],
+        "css": ["had_demigrainefy.css"]
+  	}
+  ],
+    
+  "permissions": [
+    "activeTab"
+  ]
+}
