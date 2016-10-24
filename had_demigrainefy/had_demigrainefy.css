@@ -6,14 +6,19 @@ article {
   color: #000 !important;
 }
 
-h1,
+h1, 
+h1 a,
 h2 {
   color: #000 !important;
 }
 
 a {
-  color: #000 !important;
+  color: #004f9d !important;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline !important;
 }
 
 code,
